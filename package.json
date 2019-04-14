@@ -4,9 +4,14 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "serve": "http-server -p 1335 build -c-1"
+    "serve": "http-server -p 3000 build -c-1"
   },
   "keywords": [],
   "author": "",
-  "license": "ISC"
+  "license": "ISC",
+  "dependencies": {
+    "http-server": "^0.11.1",
+    "i": "^0.3.6",
+    "workbox-cli": "^4.2.0"
+  }
 }
